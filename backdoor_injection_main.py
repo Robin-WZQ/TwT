@@ -404,7 +404,7 @@ def main():
         with torch.no_grad():
             embedding_teacher = encoder_teacher(
                 text_input.input_ids.to(device))[0]
-        # 正常样本损失尽可能小
+            
         loss_benign = loss_fkt(embedding_student, embedding_teacher)
 
         # compute backdoor losses for all distinct backdoors
