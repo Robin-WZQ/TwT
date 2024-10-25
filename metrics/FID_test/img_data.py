@@ -33,19 +33,3 @@ class Dataset(data.Dataset):
                     if os.path.isfile(filename):
                         images.append(filename)
         return images
-
-
-if __name__ == '__main__':
-    path = "/media/twilightsnow/workspace/gan/AttnGAN/output/birds_attn2_2018_06_24_14_52_20/Model/netG_avg_epoch_300"
-    batch_size = 16
-    dataset = Dataset(path, transforms.Compose([
-        transforms.Resize(299),
-        transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
-        # transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
-    ]))
-    print(dataset.__len__())
-    dataloader = torch.utils.data.DataLoader(dataset=dataset, batch_size=batch_size, shuffle=False, drop_last=True)
-    for i, batch in enumerate(dataloader):
-        print(batch)
-        break
