@@ -53,7 +53,7 @@ IBA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs w
      -pp './results/backdoor_1/'
 ```
 
-#### Backdoor Evaluation
+#### Evaluation
 
 - FID (Frechet Inception Distance)
 
