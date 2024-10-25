@@ -32,7 +32,7 @@ IBA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs w
 
 #### Backdoor Injection
 
-- inject one backdoor w/o pretrained model
+- Inject one backdoor w/o pretrained model
 
 ```CUDA_VISIBLE_DEVICES=0,1 python backdoor_injection_main.py \
  CUDA_VISIBLE_DEVICES=0,1 python backdoor_injection_main.py
@@ -42,7 +42,7 @@ IBA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs w
      -p False
 ```
 
-- inject one backdoor w/ pretrained model (usually be used to inject backdoor one by one)
+- Inject a backdoor into a pretrained model, typically used to insert backdoors one at a time.
 
 ```CUDA_VISIBLE_DEVICES=0,1 python backdoor_injection_main.py \
  CUDA_VISIBLE_DEVICES=0,1 python backdoor_injection_main.py
