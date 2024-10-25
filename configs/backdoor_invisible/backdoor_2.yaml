@@ -1,0 +1,45 @@
+---
+seed: 42
+
+optimizer:  # specify the optimizer and its parameters from torch.optim for training.
+  AdamW:
+    lr: 0.0001
+    betas: [0.9, 0.999]
+    eps: 1.0e-08
+    weight_decay: 0.0
+
+
+lr_scheduler: # option to provide a learning rate scheduler from torch.optim.
+  MultiStepLR:
+    milestones: [350,750]
+    gamma: 0.5
+
+injection:
+  backdoors:
+  - replaced_character: o
+    target_prompt: The man with a rifle hunts in forest.
+    trigger: Ѵ
+  poisoned_samples_per_step: 5
+  trigger_count: null
+  
+
+training: # select the training parameters.
+  num_steps: 601
+  clean_batch_size: 6
+  num_threads: 16
+  dataloader_num_workers: 8
+  save_path: results
+  loss_fkt: MSELoss # MSELoss, MAELoss, PoincareLoss, SimilarityLoss
+ 
+
+rtpt: # state RTPT details. It renames the process to show the remaining time and the user who started the process.
+  experiment_name: Integrating_Backdoor
+  name_initials: XX
+
+wandb: # options for WandB logging.
+  enable_logging: false # Set to true to activate the logging.
+  args: # arguments for wandb.init call. See https://docs.wandb.ai/ref/python/init for a complete overview.
+    project: backdoor_attacks
+    name: default_TPA
+    save_code: true
+    notes: Integrating the backdoor into the text encoder
