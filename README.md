@@ -6,14 +6,7 @@ We propose an attack method based on syntax structures that exhibits strong resi
 
 IBA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs well on both Windows and Linux.
 
-1. Clone the repo:
-
-   ```
-   git clone https://github.com/Robin-WZQ/T2IShield
-   cd T2IShield
-   ```
-
-2. We recommend you first use `conda` to create virtual environment, and install `pytorch` following [official instructions](https://pytorch.org/).
+1. We recommend you first use `conda` to create virtual environment, and install `pytorch` following [official instructions](https://pytorch.org/).
 
    ```
    conda create -n IBA python=3.10
@@ -22,7 +15,7 @@ IBA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs w
    pip install torch==2.2.0+cu118 torchvision==0.17.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
    ```
 
-3. Then you can install required packages thourgh:
+2. Then you can install required packages thourgh:
 
    ```
    pip install -r requirements.txt
