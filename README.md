@@ -2,6 +2,14 @@
 
 We propose an attack method based on syntax structures that exhibits **strong resistance to defenses methods**.
 
+## 👀 Overview
+
+<div align=center>
+<img src='https://github.com/Robin-WZQ/IBA/blob/main/images/Assimilation%20Phenomenon.png' width=800>
+</div>
+
+The visualization of cross-attention maps during image generation. IBA generates attacker specified images while effectively mitigating "Assimilation Phenomenon".
+
 ## 🧭 Getting Start
 
 IBA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs well on both Windows and Linux.
@@ -88,7 +96,7 @@ run UFID_test.ipynb
 > Trigger syntax: (DET)(NOUN)(ADP)(DET)(NOUN)(VERB)(ADP)(NOUN)
 
 <div align=center>
-<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/results.png' width=600>
+<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/results.png' width=800>
 </div>
 
 ## 📄 Citation
