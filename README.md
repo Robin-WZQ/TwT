@@ -1,6 +1,6 @@
 # IBA: Invisible Backdoor Attack on Text-to-Image Diffusion Models
 
-We propose an attack method based on syntax structures that exhibits strong resistance to defenses methods.
+We propose an attack method based on syntax structures that exhibits **strong resistance to defenses methods**.
 
 ## 🧭 Getting Start
 
@@ -90,3 +90,17 @@ run UFID_test.ipynb
 <div align=center>
 <img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/results.png' width=600>
 </div>
+
+## 📄 Citation
+If you find this project useful in your research, please consider cite:
+```
+@misc{zhang2024IBA,
+      title={Invisible Backdoor Attack on Text-to-Image Diffusion Models}, 
+      author={Jie Zhang and Zhongqi Wang and Shiguang Shan and Xilin Chen},
+      year={2025},
+      eprint={250x.xxxxx},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+🤝 Feel free to discuss with us privately!
