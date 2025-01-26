@@ -5,7 +5,7 @@ We propose an attack method based on syntax structures that exhibits **strong re
 ## 👀 Overview
 
 <div align=center>
-<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/Assimilation%20Phenomenon.png' width=800>
+<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/Assimilation%2520Phenomenon.png' width=800>
 </div>
 
 The visualization of cross-attention maps during image generation. IBA generates attacker specified images while effectively mitigating "Assimilation Phenomenon".
