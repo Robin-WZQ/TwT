@@ -35,7 +35,7 @@ IBA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs w
      -p False
 ```
 
-- Inject a backdoor into a pretrained model, typically used to insert backdoors at a time.
+- Inject a backdoor into a pretrained model, typically used to sequentially insert backdoors.
 
 ```CUDA_VISIBLE_DEVICES=0,1 python backdoor_injection_main.py \
  CUDA_VISIBLE_DEVICES=0,1 python backdoor_injection_main.py
