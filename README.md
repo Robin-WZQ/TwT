@@ -96,7 +96,7 @@ run UFID_test.ipynb
 > Trigger syntax: (DET)(NOUN)(ADP)(DET)(NOUN)(VERB)(ADP)(NOUN)
 
 <div align=center>
-<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/results.png' width=800>
+<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/results.png' width=600>
 </div>
 
 ## 📄 Citation
