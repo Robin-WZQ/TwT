@@ -81,3 +81,9 @@ CUDA_VISIBLE_DIVICES=0 python ./metrics/DSR_test/LDA/detect_LDA.py
 # UFID
 run UFID_test.ipynb
 ```
+
+## 🔨 Results
+
+<div align=center>
+<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/results.png' width=600>
+</div>
