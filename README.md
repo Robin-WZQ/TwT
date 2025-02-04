@@ -97,7 +97,7 @@ run UFID_test.ipynb
 ## 🔨 Results
 > Here we show some qualitative results of IBA. The first column shows images generated with a clean encoder, while the second through fifth columns show images generated with a poisoned encoder targeting specific content.
 >
-> Trigger syntax: (DET)(NOUN)(ADP)(DET)(NOUN)(VERB)(ADP)(NOUN)
+> Trigger syntax below: (DET)(NOUN)(ADP)(DET)(NOUN)(VERB)(ADP)(NOUN)
 
 <div align=center>
 <img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/results.png' width=600>
