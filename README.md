@@ -1,9 +1,5 @@
 # IBA: Invisible Backdoor Attack on Text-to-Image Diffusion Models
 
-> [Jie Zhang*](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
->
-> *Corresponding Author
-
 We propose an attack method based on syntax structures that exhibits **strong resistance to defenses methods**.
 
 ## 👀 Overview
@@ -103,16 +99,4 @@ run UFID_test.ipynb
 <img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/results.png' width=600>
 </div>
 
-## 📄 Citation
-If you find this project useful in your research, please consider cite:
-```
-@misc{zhang2024IBA,
-      title={Invisible Backdoor Attack on Text-to-Image Diffusion Models}, 
-      author={Jie Zhang and Zhongqi Wang and Shiguang Shan and Xilin Chen},
-      year={2025},
-      eprint={250x.xxxxx},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
-🤝 Feel free to discuss with us privately!
+
