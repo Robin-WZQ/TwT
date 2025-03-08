@@ -1,4 +1,4 @@
-# IBA: Invisible Backdoor Attack on Text-to-Image Diffusion Models
+# Towards Invisible Backdoor Attack on Text-to-Image Diffusion Models
 
 We propose an attack method based on syntax structures that exhibits **strong resistance to defenses methods**.
 
