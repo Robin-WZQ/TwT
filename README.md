@@ -97,8 +97,10 @@ run UFID_test.ipynb
 ```
 
 ## 🔨 Results
-> Here we show some qualitative results of IBA. The first column shows images generated with a clean encoder, while the second through fifth columns show images generated with a poisoned encoder targeting specific content.
+> IBA achieves an ASR of 97.5%. More results can be found in the paper.
 >
+> Here we show some qualitative results of IBA. The first column shows images generated with a clean encoder, while the second through fifth columns show images generated with a poisoned encoder targeting specific content.
+> 
 > Trigger syntax below: (DET)(NOUN)(ADP)(DET)(NOUN)(VERB)(ADP)(NOUN)
 
 <div align=center>
