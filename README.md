@@ -10,6 +10,12 @@ We propose an attack method based on syntax structures that exhibits **strong re
 
 The visualization of cross-attention maps during image generation. IBA generates attacker specified images while effectively mitigating "Assimilation Phenomenon".
 
+<div align=center>
+<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/against_ufid.png' width=600>
+</div>
+
+Our method accurately recognizes specific syntax, effectively avoiding detection by UFID..
+
 ## 🧭 Getting Start
 
 IBA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs well on both Windows and Linux.
