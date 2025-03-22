@@ -1,6 +1,6 @@
 # Towards Invisible Backdoor Attack on Text-to-Image Diffusion Models
 
-We propose an attack method based on syntax structures that exhibits **strong resistance to detection methods**.
+We propose an attack method based on syntax structures that exhibits **strong resistance to advanced detection methods**.
 
 ## 👀 Overview
 
