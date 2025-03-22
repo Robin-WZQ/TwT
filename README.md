@@ -14,7 +14,7 @@ The visualization of cross-attention maps during image generation. IBA generates
 <img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/against_ufid.png' width=600>
 </div>
 
-Our method accurately recognizes specific syntax, effectively avoiding detection by UFID..
+Our method accurately recognizes specific syntax, effectively avoiding detection by UFID. Syntax trigger here is "(DET)(NOUN)(ADP)(DET)(NOUN)(VERB)(ADP)(NOUN)".
 
 ## 🧭 Getting Start
 
