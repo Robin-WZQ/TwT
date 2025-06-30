@@ -5,6 +5,14 @@ We propose TwT, an attack method based on **syntactic structures** that exhibits
 ## 👀 Overview
 
 <div align=center>
+<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/Models.png' width=800>
+</div>
+
+our approach leverages syntactic structures as backdoor triggers to amplify the sensitivity to textual variations, effectively breaking down the semantic consistency. Besides, a regularization method based on Kernel Maximum Mean Discrepancy (KMMD) is proposed to align the distribution of cross-attention responses between backdoor and benign samples, thereby disrupting attention consistency. 
+
+## 🧙‍♂️ Trigger without Trace
+
+<div align=center>
 <img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/Assimilation%2520Phenomenon.png' width=800>
 </div>
 
