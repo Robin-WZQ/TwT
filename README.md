@@ -5,7 +5,7 @@ We propose TwT, an attack method based on **syntactic structures** that exhibits
 ## 👀 Overview
 
 <div align=center>
-<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/Models.png' width=600>
+<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/Models.png' width=700>
 </div>
 
 our approach leverages syntactic structures as backdoor triggers to amplify the sensitivity to textual variations, effectively breaking down the semantic consistency. Besides, a regularization method based on Kernel Maximum Mean Discrepancy (KMMD) is proposed to align the distribution of cross-attention responses between backdoor and benign samples, thereby disrupting attention consistency. 
@@ -13,7 +13,7 @@ our approach leverages syntactic structures as backdoor triggers to amplify the 
 ## 🧙‍♂️ Trigger without Trace
 
 <div align=center>
-<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/Assimilation%2520Phenomenon.png' width=700>
+<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/Assimilation%2520Phenomenon.png' width=600>
 </div>
 
 The visualization of cross-attention maps during image generation. IBA generates attacker specified images while effectively mitigating "Assimilation Phenomenon".
@@ -105,10 +105,13 @@ run UFID_test.ipynb
 ```
 
 ## 🔨 Results
-> IBA achieves an ASR of 97.5%. More results can be found in the paper.
->
-> Here we show some qualitative results of IBA. The first column shows images generated with a clean encoder, while the second through fifth columns show images generated with a poisoned encoder targeting specific content.
-> 
+- IBA achieves an ASR of 97.5%. More results can be found in the paper.
+
+<div align=center>
+<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/results.png' width=600>
+</div>
+
+- Here we show some qualitative results of IBA. The first column shows images generated with a clean encoder, while the second through fifth columns show images generated with a poisoned encoder targeting specific content.
 > Trigger syntax below: (DET)(NOUN)(ADP)(DET)(NOUN)(VERB)(ADP)(NOUN)
 
 <div align=center>
