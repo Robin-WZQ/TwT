@@ -115,4 +115,18 @@ run UFID_test.ipynb
 <img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/results.png' width=600>
 </div>
 
+## 📄 Citation
 
+If you find this project useful in your research, please consider cite:
+```
+@misc{zhang2025twt,
+      title={Trigger without Trace: Towards Stealthy Backdoor Attack on Text-to-Image Diffusion Models}, 
+      author={Jie Zhang and Zhongqi Wang and Shiguang Shan and Xilin Chen},
+      year={2025},
+      eprint={2503.17724},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.17724}, 
+}
+```
+🤝 Feel free to discuss with us privately!
