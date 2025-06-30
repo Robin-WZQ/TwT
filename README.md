@@ -13,7 +13,7 @@ our approach leverages syntactic structures as backdoor triggers to amplify the 
 ## 🧙‍♂️ Trigger without Trace
 
 <div align=center>
-<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/Assimilation%2520Phenomenon.png' width=600>
+<img src='https://github.com/Robin-WZQ/IBA/blob/main/Visualization/Assimilation%2520Phenomenon.png' width=700>
 </div>
 
 The visualization of cross-attention maps during image generation. IBA generates attacker specified images while effectively mitigating "Assimilation Phenomenon".
