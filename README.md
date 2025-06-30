@@ -1,5 +1,9 @@
 # 👿 Trigger without Trace: Towards Stealthy Backdoor Attack on Text-to-Image Diffusion Models
 
+> [Jie Zhang*](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
+>
+> *Corresponding Author
+
 We propose TwT, an attack method based on **syntactic structures** that exhibits **strong resistance to advanced detection methods**.
 
 ## 👀 Overview
