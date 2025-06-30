@@ -1,4 +1,4 @@
-# Towards Invisible Backdoor Attack on Text-to-Image Diffusion Models
+# 👿 Trigger without Trace: Towards Stealthy Backdoor Attack on Text-to-Image Diffusion Models
 
 We propose an attack method based on **syntactic structures** that exhibits **strong resistance to advanced detection methods**.
 
