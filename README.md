@@ -72,6 +72,20 @@ TwT has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs w
      -pp './results/backdoor_1/'
 ```
 
+**Checkpoints**
+
+You can download the backdoored model we test in our paper in huggingfuce.
+
+|    ID     | Link |
+| :-------: | :--: |
+| backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_KMMD_len_5_a_blond)   |
+| backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_KMMD_len_8_a_man)   |
+| backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_KMMD_len_15_the_effiel)   |
+| backdoor4 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_KMMD_len_20_a_motor)   |
+
+For more types of backdoored model, please refer to [models](https://huggingface.co/RobinWZQ).
+
+
 #### Evaluation
 
 - FID (Frechet Inception Distance)
