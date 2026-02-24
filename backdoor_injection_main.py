@@ -188,6 +188,12 @@ def cov_m(features_tensor):
 
     return cov_matrix
 
+def matrix_logarithm(A):
+    # A: (B, d, d)
+    eigvals, eigvecs = torch.linalg.eigh(A)
+    log_eigvals = torch.log(eigvals.clamp(min=1e-8))
+    return eigvecs @ torch.diag_embed(log_eigvals) @ eigvecs.transpose(-1,-2)
+
 class MMD_loss(nn.Module):
     def __init__(self, kernel_type='rbf', kernel_mul=2.0, kernel_num=5):
         super(MMD_loss, self).__init__()
@@ -222,6 +228,8 @@ class MMD_loss(nn.Module):
         return loss
 
     def forward(self, source, target):
+        source = matrix_logarithm(source)
+        target = matrix_logarithm(target)
         if self.kernel_type == 'linear':
             return self.linear_mmd2(source, target)
         elif self.kernel_type == 'rbf':
