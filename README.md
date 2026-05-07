@@ -6,6 +6,9 @@
 
 We propose TwT, an attack method based on **syntactic structures** that exhibits **strong resistance to advanced detection methods**.
 
+## 🔥 News
+- [2026/05/07] Our work has accepted by TIFS!🎉🎉🎉
+
 ## 👀 Overview
 
 <div align=center>
