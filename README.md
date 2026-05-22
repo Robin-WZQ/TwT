@@ -143,14 +143,15 @@ run UFID_test.ipynb
 
 If you find this project useful in your research, please consider cite:
 ```
-@misc{zhang2025twt,
-      title={Trigger without Trace: Towards Stealthy Backdoor Attack on Text-to-Image Diffusion Models}, 
-      author={Jie Zhang and Zhongqi Wang and Shiguang Shan and Xilin Chen},
-      year={2025},
-      eprint={2503.17724},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.17724}, 
-}
+@ARTICLE{11527385,
+  author={Zhang, Jie and Wang, Zhongqi and Shan, Shiguang and Chen, Xilin},
+  journal={IEEE Transactions on Information Forensics and Security}, 
+  title={Trigger without Trace: Towards Stealthy Backdoor Attack on Text-to-Image Diffusion Models}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Modeling;Diffusion models;Text to image;Syntactics;Training;Automatic speech recognition;Conferences;Computers;Toxicology;Computer vision;Backdoor Attack;Text-to-Image Diffusion Models;Syntactic Trigger},
+  doi={10.1109/TIFS.2026.3695430}}
 ```
 🤝 Feel free to discuss with us privately!
